@@ -7,4 +7,6 @@ pygame.init()
 """
 Screen size for the game
 """
-screen = pygame.display.set_mode((640, 480))
+width = 640
+height = 480
+screen = pygame.display.set_mode((width, height))
