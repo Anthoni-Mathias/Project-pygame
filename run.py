@@ -13,11 +13,12 @@ screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('title')
 
 """
-Loop efect
+Loop efect and odjects
 """
 while True:
   for event in pygame.event.get():
     if event.type == QUIT:
       pygame.quit()
       exit()
+  pygame.draw.rect(screen, (255,0,0), (200,300,40,50))
   pygame.display.update()
